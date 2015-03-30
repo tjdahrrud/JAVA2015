@@ -16,12 +16,12 @@ public class CLoginView {
 		Scanner scan = new Scanner(System.in);
 		//input from keyboard using scanner
 		CMember member = new CMember();
-		System.out.print("사용자 ID를 입력하세요: ");
-		String userID = scan.next();	//엔터에서 끊는다
+	
+		//String userID = scan.next();	//엔터에서 끊는다
 		member.setUserID("userID");
 
-		System.out.print("사용자 Password를 입력하세요: ");
-		String password = scan.next();
+		
+		//String password = scan.next();
 		member.setPassword("password");
 		//close scanner
 		scan.close();		//항상 스캐너를 닫아주는 버릇
